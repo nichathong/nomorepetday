@@ -2,9 +2,42 @@
   "name": "petday",
   "private": true,
   "dependencies": {
-    "@rails/ujs": "^6.0.0",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
-    "@rails/actioncable": "^6.0.0"
+    "@rails/ujs": "^6.0.0",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "webpack",
+    "start": "webpack --watch --mode=development" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichathong/petday.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichathong/petday/issues"
+  },
+  "homepage": "https://github.com/nichathong/petday#readme"
 }
